@@ -1,0 +1,7 @@
+<h2 class="text-center text-xl text-white bg-blue-500 p-5">Your tasks</h2>
+
+<ul class="min-h-screen bg-slate-100">
+  <% task.map(taskAlone => { %>
+  <li class="text-base p-4 m-2 bg-gray-300 rounded"><%= taskAlone %></li>
+  <% }); %>
+</ul>
